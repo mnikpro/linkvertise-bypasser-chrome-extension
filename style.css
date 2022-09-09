@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(36, 37, 40);
+    min-width: 230px;
+    min-height: 190px;
+}
+
+#title {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    color: rgb(210, 210, 210);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#bypass-btn {
+ /*make at the center of the screen*/
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,12 +1,18 @@
 /*
 do a http GET request in 
-"https://vacant-curtly-composure.herokuapp.com/bypass2?url=" + current url 
-but only if the site is "https://linkvertise.com/*"
+"https://vacant-curtly-composure.herokuapp.com/bypass2?url=" + current url"
 */
-if (window.location.href.startsWith("https://linkvertise.com/")) {
+
+/*
+
     var url = "https://vacant-curtly-composure.herokuapp.com/bypass2?url=" + window.location.href;
     var xhr = new XMLHttpRequest();
     xhr.open("GET", url);
     xhr.send();
     
-}
+    //redirect to the new url
+    xhr.onload = () => window.location.href = xhr.responseText;
+*/
+
+location.replace("https://google.com");
+

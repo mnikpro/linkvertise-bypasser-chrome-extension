@@ -3,7 +3,7 @@ do a http GET request in
 "https://vacant-curtly-composure.herokuapp.com/bypass2?url=" + current url"
 */
 
-/*
+
 
     var url = "https://vacant-curtly-composure.herokuapp.com/bypass2?url=" + window.location.href;
     var xhr = new XMLHttpRequest();
@@ -11,8 +11,7 @@ do a http GET request in
     xhr.send();
     
     //redirect to the new url
-    xhr.onload = () => window.location.href = xhr.responseText;
-*/
+    xhr.onload = () => location.replace("https://google.com/");
 
-location.replace("https://google.com");
+
 

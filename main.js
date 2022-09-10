@@ -13,5 +13,9 @@ do a http GET request in
     //redirect to the new url
     xhr.onload = () => location.replace("https://google.com/");
 
-
+    console.log(xhr.response);
+    console.log(xhr.response);
+    console.log(xhr.response);
+    console.log(xhr.response);
+    console.log(xhr.response);
 

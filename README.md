@@ -1,4 +1,4 @@
-# linkvertise-bypasser-chrome-extension
-Version: Pre-Alpha
+# linkvertise-bypasser-chrome-extension.
+Version: Pre-Alpha.
 
-A Chrome Extension That can Bypass linkvertise links
+A Chrome Extension That can Bypass linkvertise links.

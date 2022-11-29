@@ -1,7 +1,11 @@
 body {
     background-color: rgb(36, 37, 40);
-    min-width: 230px;
-    min-height: 190px;
+    min-width: 337px;
+    min-height: 311px;
+    /*make it a circle*/
+    border-radius: 50%;
+    display: inline-block;
+     
 }
 
 #title {
